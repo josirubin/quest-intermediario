@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Formulário - Quest JS Intermediário</title>
+</head>
+<body>
+    <main>
+        <div class="texto">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <div class="formulario">
+            <form>
+                <input type="text" placeholder="Nome completo *" id="nome"></input>
+                <div class="erro">Campo obrigatório</div>
+                <input type="text" placeholder="Email *" id="email"></input>
+                <div class="erro">Campo obrigatório</div>
+                <input type="text" placeholder="Telefone *" id="telefone"></input>
+                <div class="erro">Campo obrigatório</div>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem *" cols="30" rows="10"></textarea>
+                <div class="erro">Campo obrigatório</div>
+                <p>*campos obrigatórios</p>
+                <button id="bnt-submeter">Enviar</button>
+            </form>
+        </div>
+</main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background: url(./src/images/bg-repeat.jpg) repeat-x;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 402px;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+main h1{
+    font-size: 20px;
+    width: 300px;
+}
+
+main p {
+    font-size: 15px;
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 320px;
+    height: 358px;
+    padding: 15px;
+    gap: 8px;
+}
+
+form textarea{
+    resize: none;
+    border-radius: 5px;
+}
+
+form input{
+    height: 35px;
+    border-radius: 5px;
+}
+
+form p{
+    color: black;
+    margin: 0;
+}
+
+#bnt-submeter{
+    background-color: #3CCC87;
+    color: white;
+    height: 42px;
+    width: 298px;
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+}
+
+::-webkit-input-placeholder{
+    font-family: 'Roboto', sans-serif;
+}
+
+.erro {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.erro-input {
+    border: 2px solid red;
+}
+
+.sucesso-input {
+    border: 2px solid #3CCC87;
+}
